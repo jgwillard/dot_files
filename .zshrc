@@ -81,6 +81,9 @@ source $ZSH/oh-my-zsh.sh
 # ask before deleting
 alias rm="rm -i"
 
+# use neovim by default (`vim` still opens vim)
+alias vi="nvim"
+
 # Don't share history between tabs
 unsetopt inc_append_history
 unsetopt share_history

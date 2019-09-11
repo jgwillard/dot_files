@@ -1,11 +1,25 @@
 [user]
-	name = John Willard
-	email = jgwil2@gmail.com
+    name = John Willard
+    email = jgwil2@gmail.com
 [push]
-	default = simple
+    default = simple
 [alias]
-	co = checkout
-	br = branch
-	ci = commit
-	st = status
-	df = diff
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+    df = diff
+    cm = !git add -A && git commit -m
+    cob = checkout -b
+    up = pull --prune
+    unstage = reset HEAD --
+    amend = commit -a --amend
+    save = !git add -A && git commit -m 'save-point'
+    undo = reset HEAD~1 --mixed
+    wipe = !git add -A && git commit -qm 'save-point-wiped' && git reset HEAD~1 --hard
+    burn = "!f() { git checkout ${1-master} && git branch --merged ${1-master} | grep -v " ${1-master}$" | xargs git branch -d; }; f"
+    ready = "!f() { git checkout ${1-master} && git up && git burn ${1-master}; }; f"
+    lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+[merge]
+    tool = vimdiff
+    conflictstyle = diff3df = diff

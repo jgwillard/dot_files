@@ -1,0 +1,11 @@
+[user]
+	name = John Willard
+	email = jgwil2@gmail.com
+[push]
+	default = simple
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	df = diff

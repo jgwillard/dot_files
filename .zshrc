@@ -84,6 +84,9 @@ alias rm="rm -i"
 # use neovim by default (`vim` still opens vim)
 alias vi="nvim"
 
+# use python3 by default
+alias python="python3"
+
 # Don't share history between tabs
 unsetopt inc_append_history
 unsetopt share_history

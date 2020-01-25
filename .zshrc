@@ -86,6 +86,7 @@ alias vi="nvim"
 
 # use python3 by default
 alias python="python3"
+alias pip="pip3"
 
 # Don't share history between tabs
 unsetopt inc_append_history

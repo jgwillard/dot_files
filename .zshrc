@@ -84,16 +84,9 @@ alias rm="rm -i"
 # use neovim by default (`vim` still opens vim)
 alias vi="nvim"
 
-# use python3 by default
-alias python="python3"
-alias pip="pip3"
-
 # Don't share history between tabs
 unsetopt inc_append_history
 unsetopt share_history
-
-export WORKON_HOME=~/.envs
-source /usr/local/bin/virtualenvwrapper.sh
 
 # set readline to vi mode
 # set -o vi

@@ -6,6 +6,7 @@ export ZSH=/Users/john/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="agnoster"
+# ZSH_THEME="avit"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -84,9 +85,15 @@ alias rm="rm -i"
 # use neovim by default (`vim` still opens vim)
 alias vi="nvim"
 
+# use python3 by default
+alias python="python3"
+
 # Don't share history between tabs
 unsetopt inc_append_history
 unsetopt share_history
 
 # set readline to vi mode
 # set -o vi
+
+# put algs4 in the java classpath
+export CLASSPATH=$CLASSPATH:~/Projects/java/algs4/algs4.jar

@@ -45,5 +45,7 @@ set scrolloff=10                            " let 10 lines before/after cursor d
 
 set clipboard=unnamed                       " use system clipboard
 
-" set <leader>
-let mapleader=","
+let mapleader=","                           " set <leader>
+
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"    " Vertical bar in insert mode
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"    " Block in normal mode

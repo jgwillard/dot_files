@@ -15,7 +15,7 @@ set nocompatible
 "" Vundle settings
 "=====================================================
 filetype off
-set rtp+=~/.config/nvim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin('~/.config/nvim/bundle')
 
     Plugin 'VundleVim/Vundle.vim'               " let Vundle manage Vundle, required
@@ -88,6 +88,7 @@ nmap <F9> :bprev<CR>
 nmap <F10> :bnext<CR>
 nmap <silent> <leader>q :SyntasticCheck # <CR> :bp <BAR> bd #<CR>
 
+"=====================================================
 "" Search settings
 "=====================================================
 set incsearch                               " incremental search
@@ -134,6 +135,7 @@ nmap " :NERDTreeToggle<CR>
 "" SnipMate settings
 "=====================================================
 let g:snippets_dir='~/.config/nvim/bundle/vim-snippets/snippets'
+let g:snipMate = { 'snippet_version' : 1 }
 
 "=====================================================
 "" Riv.vim settings

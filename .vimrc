@@ -7,6 +7,8 @@ nnoremap ; :
 :inoremap ( ()<Esc>i
 :inoremap [ []<Esc>i
 :inoremap { {}<Esc>i
+:inoremap ' ''<Esc>i
+:inoremap " ""<Esc>i
 
 
 syntax enable                               " syntax highlight

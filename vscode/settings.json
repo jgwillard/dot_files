@@ -3,11 +3,12 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.detectIndentation": true,
-  "editor.renderWhitespace": "all",
+  "editor.renderWhitespace": "boundary",
   "editor.rulers": [72, 79],
   "editor.formatOnSave": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "git.mergeEditor": false,
   "workbench.colorTheme": "Tokyo Night",
   "search.exclude": {
     "**/node_modules": true,

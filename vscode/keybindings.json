@@ -2,7 +2,7 @@
 [
   {
     "key": "cmd+j",
-    "command": "terminal.focus",
+    "command": "workbench.action.terminal.focus",
     "when": "!terminalFocus"
   },
   {

@@ -24,3 +24,5 @@
 [merge]
     tool = vimdiff
     conflictstyle = diff3
+[core]
+    editor = vi

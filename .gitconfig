@@ -3,6 +3,7 @@
     email = willard.john.gray@gmail.com
 [push]
     default = simple
+    autoSetupRemote = true
 [alias]
     co = checkout
     br = branch
